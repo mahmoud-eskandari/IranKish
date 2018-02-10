@@ -1,0 +1,25 @@
+{
+    "name": "eskandari/IranKish",
+    "type": "library",
+    "description": "Iran,Irankicc,IranKish,Payment,PaymentGateway,persian",
+    "keywords": ["Iran","IranKish","Payment","persian","PaymentGateway"],
+    "homepage": "http://webafrooz.com",
+    "license": "GPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Mahmoud Eskandari",
+            "email": "info@webafrooz.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+		"ext-openssl": "*",
+		"ext-soap": "*" 
+    },
+    "autoload": {
+        "psr-4": {
+            "eskandari\\IranKish\\Verify\\": "src/Verify/",
+            "eskandari\\IranKish\\Token\\": "src/Token/"
+        }
+    }
+}
