@@ -1,5 +1,5 @@
 # IranKish
-IranKish`s Gateway php Library
+a php library for communicate to Irankish payment gateway 
 
 Installation
 
